@@ -1,0 +1,11 @@
+name = "durable-crons"
+main = "src/index.ts"
+compatibility_date = "2024-06-08"
+
+[[durable_objects.bindings]]
+name = "User"
+class_name = "User"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["User"]

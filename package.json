@@ -1,0 +1,22 @@
+{
+  "name": "durable-crons",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240605.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0",
+    "wrangler": "3.60.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "cron-parser": "^4.9.0"
+  },
+  "overrides": {
+    "esbuild": "0.21.4"
+  }
+}
